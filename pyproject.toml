@@ -1,0 +1,20 @@
+[project]
+name = "iriswu88-github-io"
+version = "0.0.1"
+description = "Initial Website for Iris Wu"
+authors = [
+    {name = "iriswu88",email = "iriswu88@bu.edu"}
+]
+readme = "README.md"
+requires-python = "3.10"
+dependencies = [
+    "plotly (>=6.3.0,<7.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "iriswu88"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
